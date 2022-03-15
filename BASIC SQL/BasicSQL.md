@@ -32,3 +32,9 @@ SELECT DISTINCT(CITY) FROM STATION WHERE (ID%2)=0 ;
 select count(city) - count(distinct(city)) from station;
 
 **10.) Weather Observation Station 5**
+
+
+**11.) Weather Observation Station 6**\
+SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) IN ('a','e','i','o','u');   [MYSQL]
+
+
