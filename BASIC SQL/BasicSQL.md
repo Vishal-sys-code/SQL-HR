@@ -13,22 +13,22 @@ select name from city where population>120000 and countrycode = 'USA';
 **3.) Select All** \
 select * from city; OR select all from city;
 
-**4.) Select By ID**
+**4.) Select By ID** \
 select * from city where ID = 1661;
 
-**5.) Japanese Cities' Attributes**
+**5.) Japanese Cities' Attributes**\
 select * from city where countrycode = 'JPN';
 
-**6.) Japanese Cities' Names**
+**6.) Japanese Cities' Names**\
 select name from city where countrycode = 'JPN';
 
-**7.) Weather Observation Station 1**
+**7.) Weather Observation Station 1**\
 select city,state from station;
 
-**8.) Weather Observation Station 3**
+**8.) Weather Observation Station 3**\
 SELECT DISTINCT(CITY) FROM STATION WHERE (ID%2)=0 ;
 
-**9.) Weather Observation Station 4**
+**9.) Weather Observation Station 4**\
 select count(city) - count(distinct(city)) from station;
 
 **10.) Weather Observation Station 5**
