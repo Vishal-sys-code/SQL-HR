@@ -41,7 +41,9 @@ SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) IN ('a','e','i','o','u');  
 SELECT DISTINCT CITY FROM STATION WHERE RIGHT(City,1) IN ('a','e','i','o','u');   [MYSQL]
 
 **13.) Weather Observation Station 8**\
+```
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) IN ('a','e','i','o','u') AND RIGHT(City,1) IN ('a','e','i','o','u');    [MYSQL]
+```
 
 **14.) Weather Observation Station 9**\
 ```
