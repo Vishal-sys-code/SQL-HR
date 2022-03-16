@@ -143,6 +143,8 @@ select sum(population) from city where countrycode = 'JPN';
 ```
 
 **27.) Population Density Difference**
+```
 select max(population) - min(population) from city;
+```
 
 **28.) The Blunder**
