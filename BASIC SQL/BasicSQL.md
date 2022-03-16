@@ -29,7 +29,7 @@ select * from city where ID = 1661;
 select * from city where countrycode = 'JPN';
 ```
 
-**6.) Japanese Cities' Names**\
+**6.) Japanese Cities' Names**
 ```
 select name from city where countrycode = 'JPN';
 ```
