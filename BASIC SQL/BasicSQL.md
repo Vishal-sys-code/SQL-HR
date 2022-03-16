@@ -4,7 +4,7 @@ Practice Link: [basicsql.com](https://www.hackerrank.com/domains/sql?filters%5Bs
 
 Questions and Queries will be written below.
 
-**1.) Revisiting the Select Query I** \
+**1.) Revisiting the Select Query I** 
 ```
 select * from city where population>100000 and countrycode = 'USA';
 ```
