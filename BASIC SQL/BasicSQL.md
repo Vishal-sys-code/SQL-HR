@@ -53,5 +53,8 @@ SELECT DISTINCT CITY FROM STATION WHERE RIGHT(City,1) NOT IN ('a','e','i','o','u
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) not IN ('a','e','i','o','u') OR RIGHT(City,1) NOT IN ('a','e','i','o','u');    [MYSQL]
 
 
-**17.) Weather Observation Station 12** /
+**17.) Weather Observation Station 12** \
 select distinct city from station where city regexp '^[^aeiou].*[^aeiou]$'
+
+**18.) Higher than 75 marks**\
+select 
