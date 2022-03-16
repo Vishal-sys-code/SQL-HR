@@ -14,7 +14,7 @@ select * from city where population>100000 and countrycode = 'USA';
 select name from city where population>120000 and countrycode = 'USA';
 ```
 
-**3.) Select All** \
+**3.) Select All**
 ```
 select * from city; OR select all from city;
 ```
