@@ -24,7 +24,7 @@ select * from city; OR select all from city;
 select * from city where ID = 1661;
 ```
 
-**5.) Japanese Cities' Attributes**\
+**5.) Japanese Cities' Attributes** 
 ```
 select * from city where countrycode = 'JPN';
 ```
