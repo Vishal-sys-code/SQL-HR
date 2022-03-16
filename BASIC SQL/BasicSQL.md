@@ -138,7 +138,9 @@ select round(avg(population)) from city;
 ```
 
 **26.) Japan Population**
+```
 select sum(population) from city where countrycode = 'JPN';
+```
 
 **27.) Population Density Difference**
 select max(population) - min(population) from city;
