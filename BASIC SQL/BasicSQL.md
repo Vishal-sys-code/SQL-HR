@@ -64,3 +64,17 @@ SELECT name FROM Employee ORDER BY name ASC;
 
 **20.) Employee Salaries**\
 SELECT name FROM Employee WHERE salary > 2000 and months < 10 ORDER BY employee_id ASC;
+
+**21.) Types of Triangles**\
+```
+SELECT CASE
+        WHEN a+b>c AND b+c>a AND a+c>b THEN
+            CASE
+                WHEN a = b AND b = c THEN 'Equilateral'
+                WHEN a = b OR b = c OR a = c THEN 'Isosceles'
+                ELSE 'Scalene'
+            END
+        ELSE 'Not A Triangle'
+    END
+FROM TRIANGLES;
+```
