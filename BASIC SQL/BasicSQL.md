@@ -62,5 +62,5 @@ SELECT name FROM students WHERE marks>75 ORDER BY Right(name,3),id ASC;
 **19.) Employee Names**\
 SELECT name FROM Employee ORDER BY name ASC;
 
-**19.) Employee Salaries**\
+**20.) Employee Salaries**\
 SELECT name FROM Employee WHERE salary > 2000 and months < 10 ORDER BY employee_id ASC;
