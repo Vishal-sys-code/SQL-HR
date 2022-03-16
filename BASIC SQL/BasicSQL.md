@@ -23,7 +23,9 @@ select * from city where countrycode = 'JPN';
 select name from city where countrycode = 'JPN';
 
 **7.) Weather Observation Station 1**\
+```
 select city,state from station;
+```
 
 **8.) Weather Observation Station 3**\
 ```
