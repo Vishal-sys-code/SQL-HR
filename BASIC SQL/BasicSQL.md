@@ -118,5 +118,6 @@ FROM TRIANGLES;
 ```
 
 **22.) Revising Aggregate - The Count Function**\
-
+```
 SELECT Count(name) from CITY where population > 100000;
+```
