@@ -14,7 +14,9 @@ select name from city where population>120000 and countrycode = 'USA';
 select * from city; OR select all from city;
 
 **4.) Select By ID** \
+```
 select * from city where ID = 1661;
+```
 
 **5.) Japanese Cities' Attributes**\
 ```
