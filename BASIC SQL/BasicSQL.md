@@ -121,3 +121,6 @@ FROM TRIANGLES;
 ```
 SELECT Count(name) from CITY where population > 100000;
 ```
+
+**23.) Revising Aggregate - The Sum Function**\
+select sum(population) from city where district = 'California';
