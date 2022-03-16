@@ -29,7 +29,9 @@ select city,state from station;
 SELECT DISTINCT(CITY) FROM STATION WHERE (ID%2)=0 ;
 
 **9.) Weather Observation Station 4**\
+```
 select count(city) - count(distinct(city)) from station;
+```
 
 **10.) Weather Observation Station 5**
 
