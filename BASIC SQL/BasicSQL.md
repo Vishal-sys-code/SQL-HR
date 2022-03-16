@@ -128,7 +128,9 @@ select sum(population) from city where district = 'California';
 ```
 
 **24.) Revising Aggregate - Averages**
+```
 select avg(population) from city where district = 'California';
+```
 
 **25.) Revising Aggregate - Average Population**
 select round(avg(population)) from city;
