@@ -44,7 +44,7 @@ select city,state from station;
 SELECT DISTINCT(CITY) FROM STATION WHERE (ID%2)=0 ;
 ```
 
-**9.) Weather Observation Station 4**\
+**9.) Weather Observation Station 4**
 ```
 select count(city) - count(distinct(city)) from station;
 ```
@@ -52,58 +52,58 @@ select count(city) - count(distinct(city)) from station;
 **10.) Weather Observation Station 5**
 
 
-**11.) Weather Observation Station 6**\
+**11.) Weather Observation Station 6**
 ```
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) IN ('a','e','i','o','u');   [MYSQL]
 ```
 
-**12.) Weather Observation Station 7**\
+**12.) Weather Observation Station 7**
 ```
 SELECT DISTINCT CITY FROM STATION WHERE RIGHT(City,1) IN ('a','e','i','o','u');   [MYSQL]
 ```
 
-**13.) Weather Observation Station 8**\
+**13.) Weather Observation Station 8**
 ```
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) IN ('a','e','i','o','u') AND RIGHT(City,1) IN ('a','e','i','o','u');    [MYSQL]
 ```
 
-**14.) Weather Observation Station 9**\
+**14.) Weather Observation Station 9**
 ```
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) NOT IN ('a','e','i','o','u'); [MYSQL]
 ```
 
-**15.) Weather Observation Station 10**\
+**15.) Weather Observation Station 10**
 ```
 SELECT DISTINCT CITY FROM STATION WHERE RIGHT(City,1) NOT IN ('a','e','i','o','u');  [MYSQL]
 ```
 
-**16.) Weather Observation Station 11**\
+**16.) Weather Observation Station 11**
 ```
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) not IN ('a','e','i','o','u') OR RIGHT(City,1) NOT IN ('a','e','i','o','u');    [MYSQL]
 ```
 
 
-**17.) Weather Observation Station 12** \
+**17.) Weather Observation Station 12** 
 ```
 select distinct city from station where city regexp '^[^aeiou].*[^aeiou]$'
 ```
 
-**18.) Higher than 75 marks**\
+**18.) Higher than 75 marks**
 ```
 SELECT name FROM students WHERE marks>75 ORDER BY Right(name,3),id ASC; 
 ```
 
-**19.) Employee Names**\
+**19.) Employee Names**
 ```
 SELECT name FROM Employee ORDER BY name ASC;
 ```
 
-**20.) Employee Salaries**\
+**20.) Employee Salaries**
 ```
 SELECT name FROM Employee WHERE salary > 2000 and months < 10 ORDER BY employee_id ASC;
 ```
 
-**21.) Types of Triangles**\
+**21.) Types of Triangles**
 ```
 SELECT CASE
         WHEN a+b>c AND b+c>a AND a+c>b THEN
@@ -117,24 +117,26 @@ SELECT CASE
 FROM TRIANGLES;
 ```
 
-**22.) Revising Aggregate - The Count Function**\
+**22.) Revising Aggregate - The Count Function**
 ```
 SELECT Count(name) from CITY where population > 100000;
 ```
 
-**23.) Revising Aggregate - The Sum Function**\
+**23.) Revising Aggregate - The Sum Function**
+```
 select sum(population) from city where district = 'California';
+```
 
-**24.) Revising Aggregate - Averages**\
+**24.) Revising Aggregate - Averages**
 select avg(population) from city where district = 'California';
 
-**25.) Revising Aggregate - Average Population**\
+**25.) Revising Aggregate - Average Population**
 select round(avg(population)) from city;
 
-**26.) Japan Population**\
+**26.) Japan Population**
 select sum(population) from city where countrycode = 'JPN';
 
-**27.) Population Density Difference**\
+**27.) Population Density Difference**
 select max(population) - min(population) from city;
 
-**28.) The Blunder**\
+**28.) The Blunder**
