@@ -26,7 +26,9 @@ select name from city where countrycode = 'JPN';
 select city,state from station;
 
 **8.) Weather Observation Station 3**\
+```
 SELECT DISTINCT(CITY) FROM STATION WHERE (ID%2)=0 ;
+```
 
 **9.) Weather Observation Station 4**\
 ```
