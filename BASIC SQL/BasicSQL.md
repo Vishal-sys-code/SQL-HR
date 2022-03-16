@@ -60,7 +60,9 @@ select distinct city from station where city regexp '^[^aeiou].*[^aeiou]$'
 SELECT name FROM students WHERE marks>75 ORDER BY Right(name,3),id ASC; 
 
 **19.) Employee Names**\
+```
 SELECT name FROM Employee ORDER BY name ASC;
+```
 
 **20.) Employee Salaries**\
 ```
