@@ -124,3 +124,9 @@ SELECT Count(name) from CITY where population > 100000;
 
 **23.) Revising Aggregate - The Sum Function**\
 select sum(population) from city where district = 'California';
+
+**23.) Revising Aggregate - Averages**\
+select avg(population) from city where district = 'California';
+
+**24.) Revising Aggregate - Average Population**\
+select round(avg(population)) from city;
