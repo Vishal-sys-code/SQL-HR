@@ -9,7 +9,7 @@ Questions and Queries will be written below.
 select * from city where population>100000 and countrycode = 'USA';
 ```
 
-**2.) Revisiting the Select Query II**\
+**2.) Revisiting the Select Query II**
 ```
 select name from city where population>120000 and countrycode = 'USA';
 ```
