@@ -38,7 +38,9 @@ select count(city) - count(distinct(city)) from station;
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(City,1) IN ('a','e','i','o','u');   [MYSQL]
 
 **12.) Weather Observation Station 7**\
+```
 SELECT DISTINCT CITY FROM STATION WHERE RIGHT(City,1) IN ('a','e','i','o','u');   [MYSQL]
+```
 
 **13.) Weather Observation Station 8**\
 ```
