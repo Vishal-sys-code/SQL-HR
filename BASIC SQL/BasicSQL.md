@@ -151,3 +151,7 @@ select max(population) - min(population) from city;
 ```
 SELECT CEIL(AVG(Salary)-AVG(REPLACE(Salary,'0',''))) FROM EMPLOYEES;
 ```
+**29.) Top Earners**
+```
+
+```
