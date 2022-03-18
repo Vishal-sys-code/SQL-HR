@@ -151,7 +151,9 @@ select max(population) - min(population) from city;
 ```
 SELECT CEIL(AVG(Salary)-AVG(REPLACE(Salary,'0',''))) FROM EMPLOYEES;
 ```
-**29.) Top Earners**
+**29.) Weather Observation Station 13**
 ```
-
+SELECT ROUND(SUM(LAT_N),4) 
+FROM STATION
+WHERE LAT_N > 38.7880 AND LAT_N < 137.2345;
 ```
