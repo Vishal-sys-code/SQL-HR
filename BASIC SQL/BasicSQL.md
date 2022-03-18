@@ -163,3 +163,7 @@ WHERE LAT_N > 38.7880 AND LAT_N < 137.2345;
 SELECT Round(max(LAT_N),4) FROM STATION
 WHERE LAT_N < 137.2345;
 ```
+
+**31.) Weather Observation Station 15**
+```
+```
