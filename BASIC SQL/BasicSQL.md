@@ -166,6 +166,7 @@ WHERE LAT_N < 137.2345;
 
 **31.) Weather Observation Station 15**
 ```
+select round(LONG_W,4) from STATION WHERE lat_n = (select max(lat_n) from station where lat_n < 137.2345);
 ```
 **32.) Weather Observation Station 2**
 ```
