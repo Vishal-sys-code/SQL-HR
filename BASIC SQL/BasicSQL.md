@@ -169,5 +169,5 @@ WHERE LAT_N < 137.2345;
 ```
 **32.) Weather Observation Station 2**
 ```
-
+SELECT ROUND(SUM(LAT_N),2), ROUND(SUM(LONG_W),2) FROM STATION;
 ```
