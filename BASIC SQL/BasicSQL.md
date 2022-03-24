@@ -172,3 +172,5 @@ select round(LONG_W,4) from STATION WHERE lat_n = (select max(lat_n) from statio
 ```
 SELECT ROUND(SUM(LAT_N),2), ROUND(SUM(LONG_W),2) FROM STATION;
 ```
+
+**33.) Weather Observation Station 16**
