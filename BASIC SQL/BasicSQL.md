@@ -167,3 +167,7 @@ WHERE LAT_N < 137.2345;
 **31.) Weather Observation Station 15**
 ```
 ```
+**32.) Weather Observation Station 2**
+```
+
+```
