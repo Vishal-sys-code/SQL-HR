@@ -180,5 +180,5 @@ SELECT ROUND(MIN(LAT_N),4) FROM STATION WHERE LAT_N > 38.7780;
 
 **34.) Weather Observation Station 17**
 ```
-
+SELECT ROUND(LONG_W,4) FROM STATION WHERE lat_n = (select min(lat_n) from station where lat_n > 38.7780);
 ```
