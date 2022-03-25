@@ -177,3 +177,8 @@ SELECT ROUND(SUM(LAT_N),2), ROUND(SUM(LONG_W),2) FROM STATION;
 ```
 SELECT ROUND(MIN(LAT_N),4) FROM STATION WHERE LAT_N > 38.7780;
 ```
+
+**34.) Weather Observation Station 17**
+```
+
+```
