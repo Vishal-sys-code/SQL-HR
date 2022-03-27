@@ -201,4 +201,6 @@ euclidean distance = sqrt[MOD(x1-x2)+MOD(y1-y2)]
 
 **37.) Population Census**
 ```
+SELECT SUM(City.Population) from city, country
+where city.countrycode = country.code AND  country.continent = "Asia";
 ```
