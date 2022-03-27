@@ -185,5 +185,5 @@ SELECT ROUND(LONG_W,4) FROM STATION WHERE lat_n = (select min(lat_n) from statio
 
 **35.) Weather Observation Station 18**
 ```
-
+SELECT ROUND(((Max(LAT_N) - Min(LAT_N)) + (Max(LONG_W) - Min(LONG_W))),4) from station;
 ```
