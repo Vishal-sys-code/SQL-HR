@@ -190,5 +190,11 @@ SELECT ROUND(((Max(LAT_N) - Min(LAT_N)) + (Max(LONG_W) - Min(LONG_W))),4) from s
 
 **36.) Weather Observation Station 19**
 ```
+SELECT 
+     ROUND(SQRT(POWER(MAX(LAT_N) - MIN(LAT_N),  2) + POWER(MAX(LONG_W) -MIN(LONG_W), 2)), 4)
+FROM STATION;
 
+/*
+euclidean distance = sqrt[MOD(x1-x2)+MOD(y1-y2)]
+*/
 ```
