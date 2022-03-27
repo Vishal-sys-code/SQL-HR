@@ -189,3 +189,6 @@ SELECT ROUND(((Max(LAT_N) - Min(LAT_N)) + (Max(LONG_W) - Min(LONG_W))),4) from s
 ```
 
 **36.) Weather Observation Station 19**
+```
+
+```
