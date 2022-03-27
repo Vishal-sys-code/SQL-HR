@@ -207,5 +207,6 @@ where city.countrycode = country.code AND  country.continent = "Asia";
 
 **37.) African Cities**
 ```
-
+SELECT all City.name from city, country
+where city.countrycode = country.code AND  country.continent = "Africa";
 ```
