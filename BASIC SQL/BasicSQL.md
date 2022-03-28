@@ -210,3 +210,5 @@ where city.countrycode = country.code AND  country.continent = "Asia";
 SELECT all City.name from city, country
 where city.countrycode = country.code AND  country.continent = "Africa";
 ```
+
+**38.) Average Population of Each Continent**
