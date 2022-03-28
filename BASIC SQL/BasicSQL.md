@@ -212,3 +212,6 @@ where city.countrycode = country.code AND  country.continent = "Africa";
 ```
 
 **38.) Average Population of Each Continent**
+```
+
+```
