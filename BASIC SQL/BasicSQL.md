@@ -213,5 +213,6 @@ where city.countrycode = country.code AND  country.continent = "Africa";
 
 **38.) Average Population of Each Continent**
 ```
-
+SELECT all Country.continent, round(AVG(City.Population)-0.5) from city INNER JOIN country
+ON city.countrycode = country.code group by country.continent;
 ```
